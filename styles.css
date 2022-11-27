@@ -1,0 +1,82 @@
+body {
+    background-image: url(https://formacion.ideal.es/userfiles/filesa/habito-estudio-vacaciones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #3b537a;
+    width: 1400px;
+  }
+  
+  h1 {
+    text-align: center;
+    
+  }
+  
+  p {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 20px; 
+    font-style: italic;
+  }
+  
+  
+  input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    width: 80%;
+    height: 30px;
+    border-radius: 6px;
+    border-style: none;
+    display: block;
+  }
+  
+  textarea {
+    height: 60px;
+    margin-top: 10px;
+  }
+  
+  form {
+    background-color: hsla(216, 26%, 33%, 0.5);
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: #d3dded;
+  }
+  
+  input, select{
+    margin-bottom: 15px;
+  }
+  
+  #label {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  #textarea {
+    margin-top: 20px; 
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  #submit {
+    margin-top: 35px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    background-color: #49c44d;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    
+  }
+  

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SRI Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">SRI Registration Form</h1>
+    <p id="description">Please complete this form to enroll in one of the programs of the International Relations Office</p>
+    <form id="survey-form" action='https://register-demo.freecodecamp.org'>
+      <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required /></label>
+      <label id="email-label">E-mail: <input id="email" type="email" placeholder="Enter your e-mail" required /></label>
+      <label id="number-label">Age: <input id="number" type="number" min="18" max="100" placeholder="Age" /></label>
+      <label>Choose the program you want to apply to
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">UBAINT</option>
+          <option value="2">ESCALA</option>
+        </select>
+      </label>
+      <label id="label">Select your Faculty</label>
+      <label><input type="radio" value="Social" name="facultad" />Social Sciences</label>
+      <label><input type="radio" value="law" name="facultad" />Law</label>
+      <label><input type="radio" value="Psych" name="facultad" />Psychology</label>
+      <label><input type="radio" value="Agro" name="facultad" />Agronomy</label>
+      <label><input type="radio" value="Natural" name="facultad" />Natural Sciences</label>
+      <label id="label">Select potential destination universities</label>
+      <label><input type="checkbox" value="UCM" /> Universidad Complutense de Madrid</label>
+      <label><input type="checkbox" value="USP" /> Universidad de Sao Paulo</label>
+      <label><input type="checkbox" value="UAM" /> Universidad Autónoma de Madrid</label>
+      <label><input type="checkbox" value="UBR" /> Universidad de Brasilia</label>
+      <label><input type="checkbox" value="UDELAR" /> Universidad de la República</label>
+      <label><input type="checkbox" value="UCHILE" /> Universidad de Chile</label>
+      <label><input type="checkbox" value="USACH" /> Universidad de Santiago de Chile</label>
+      <label>
+      <label id="textarea">Do you have any comments?
+        <textarea rows="3" cols="30" placeholder="Enter your comments..."></textarea>
+      </label>
+      <input type="submit" id="submit" />
+      
+      
+
+   
+
+    </form>
+  </body>
+</html>
