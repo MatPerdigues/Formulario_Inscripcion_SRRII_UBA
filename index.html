@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SRI Registration Form</title>
+    <title>Formulario de Postulacion_SRRII</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1 id="title">SRI Registration Form</h1>
-    <p id="description">Please complete this form to enroll in one of the programs of the International Relations Office</p>
+    <h1 id="title">Formulario de Postulación</h1>
+    <p id="description">Complete el siguiente formulario para inscribirse en alguno de los programa de movilidad internacional de la Universidad de Buenos Aires</p>
     <form id="survey-form" action="POST">
-      <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required /></label>
-      <label id="email-label">E-mail: <input id="email" type="email" placeholder="Enter your e-mail" required /></label>
-      <label id="number-label">Age: <input id="number" type="number" min="18" max="100" placeholder="Age" /></label>
-      <label>Choose the program you want to apply to
+      <label id="name-label">Name: <input id="name" type="text" placeholder="Indique su nombre y apellido" required /></label>
+      <label id="email-label">E-mail: <input id="email" type="email" placeholder="Ingrese su correo electrónico" required /></label>
+      <label id="number-label">Age: <input id="number" type="number" min="18" max="100" placeholder="Edad" /></label>
+      <label>Seleccione el Programa al que desea aplicar
         <select id="dropdown">
-          <option value="">(select one)</option>
-          <option value="1">UBAINT</option>
-          <option value="2">ESCALA</option>
+          <option value="">(seleccione una opción)</option>
+          <option value="1">UBAINT DOCENTES</option>
+          <option value="2">ESCALA DOCENTE</option>
+          <option value="3">UBAINT DOCTORAL</option>
+          <option value="4">UBAINT ESTUDIANTES</option>
+          <option value="5">ESCALA ESTUDIANTIL</option>
         </select>
       </label>
-      <label id="label">Select your Faculty</label>
-      <label><input type="radio" value="Social" name="facultad" />Social Sciences</label>
-      <label><input type="radio" value="law" name="facultad" />Law</label>
-      <label><input type="radio" value="Psych" name="facultad" />Psychology</label>
-      <label><input type="radio" value="Agro" name="facultad" />Agronomy</label>
-      <label><input type="radio" value="Natural" name="facultad" />Natural Sciences</label>
-      <label id="label">Select potential destination universities</label>
+      <label id="label">Seleccione su Facultad</label>
+      <label><input type="radio" value="Agro" name="facultad" />Agronomía</label>
+      <label><input type="radio" value="Natural" name="facultad" />Arquitectura</label>
+      <label><input type="radio" value="Natural" name="facultad" />Ciencias Económicas</label>
+      <label><input type="radio" value="Natural" name="facultad" />Ciencias Exactas</label>
+      <label><input type="radio" value="Social" name="facultad" />Ciencias Sociales</label>
+      <label><input type="radio" value="Natural" name="facultad" />Ciencias Veterinarias</label>
+      <label><input type="radio" value="law" name="facultad" />Derecho</label>
+      <label><input type="radio" value="Natural" name="facultad" />Farmacia y Bioquímica</label>
+      <label><input type="radio" value="Natural" name="facultad" />Filosofía y Letras</label>
+      <label><input type="radio" value="Natural" name="facultad" />Medicina</label>
+      <label><input type="radio" value="Natural" name="facultad" />Ingeniería</label>
+      <label><input type="radio" value="Psych" name="facultad" />Psicología</label>
+      <label><input type="radio" value="Natural" name="facultad" />Odontología</label>
+      
+      
+      <label id="label">Seleccione las instituciones de su interés</label>
       <label><input type="checkbox" value="UCM" /> Universidad Complutense de Madrid</label>
+      <label><input type="checkbox" value="UBAR" /> Universidad de Barcelona</label>
+      <label><input type="checkbox" value="USID" /> Universidad de Sidney</label>
+      <label><input type="checkbox" value="UMOS" /> Universidad de Moscú</label>
+      <label><input type="checkbox" value="UPEK" /> Universidad de Pekín</label>
       <label><input type="checkbox" value="USP" /> Universidad de Sao Paulo</label>
       <label><input type="checkbox" value="UAM" /> Universidad Autónoma de Madrid</label>
       <label><input type="checkbox" value="UBR" /> Universidad de Brasilia</label>
@@ -33,15 +50,11 @@
       <label><input type="checkbox" value="UCHILE" /> Universidad de Chile</label>
       <label><input type="checkbox" value="USACH" /> Universidad de Santiago de Chile</label>
       <label>
-      <label id="textarea">Do you have any comments?
-        <textarea rows="3" cols="30" placeholder="Enter your comments..."></textarea>
+      <label id="textarea">Algún comentario?
+        <textarea rows="3" cols="30" placeholder="Escriba su comentario..."></textarea>
       </label>
       <input type="submit" id="submit" />
       
-      
-
-   
-
     </form>
   </body>
   
