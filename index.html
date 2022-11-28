@@ -7,51 +7,51 @@
   <body>
     <h1 id="title">Formulario de Postulación</h1>
     <p id="description">Complete el siguiente formulario para inscribirse en alguno de los programa de movilidad internacional de la Universidad de Buenos Aires</p>
-    <form id="survey-form" action="POST">
-      <label id="name-label">Name: <input id="name" type="text" placeholder="Indique su nombre y apellido" required /></label>
-      <label id="email-label">E-mail: <input id="email" type="email" placeholder="Ingrese su correo electrónico" required /></label>
-      <label id="number-label">Age: <input id="number" type="number" min="18" max="100" placeholder="Edad" /></label>
+    <form id="survey-form" action="https://formspree.io/f/xknealgo" method="POST">
+      <label id="name-label">Name: <input id="name" type="text" placeholder="Indique su nombre y apellido" required name="Nombre"/></label>
+      <label id="email-label">E-mail: <input id="email" type="email" placeholder="Ingrese su correo electrónico" required name="E-mail"/></label>
+      <label id="number-label">Age: <input id="number" type="number" min="18" max="100" placeholder="Edad" name="Edad"/></label>
       <label>Seleccione el Programa al que desea aplicar
         <select id="dropdown">
           <option value="">(seleccione una opción)</option>
-          <option value="UBAINT DOC">UBAINT DOCENTES</option>
-          <option value="ESCALA DOC">ESCALA DOCENTE</option>
-          <option value="UBAINY DOCT">UBAINT DOCTORAL</option>
-          <option value="UBAINT EST">UBAINT ESTUDIANTES</option>
-          <option value="ESCALA EST">ESCALA ESTUDIANTIL</option>
+          <option value="UBAINT DOC" name="Programa">UBAINT DOCENTES</option>
+          <option value="ESCALA DOC" name="Programa">ESCALA DOCENTE</option>
+          <option value="UBAINY DOCT" name="Programa">UBAINT DOCTORAL</option>
+          <option value="UBAINT EST" name="Programa">UBAINT ESTUDIANTES</option>
+          <option value="ESCALA EST" name="Programa">ESCALA ESTUDIANTIL</option>
         </select>
       </label>
       <label id="label">Seleccione su Facultad</label>
-      <label><input type="radio" value="FAUBA" name="facultad" />Agronomía</label>
-      <label><input type="radio" value="FADU" name="facultad" />Arquitectura</label>
-      <label><input type="radio" value="FCE" name="facultad" />Ciencias Económicas</label>
-      <label><input type="radio" value="FCEN" name="facultad" />Ciencias Exactas</label>
-      <label><input type="radio" value="FSOC" name="facultad" />Ciencias Sociales</label>
-      <label><input type="radio" value="FVET" name="facultad" />Ciencias Veterinarias</label>
-      <label><input type="radio" value="FDER" name="facultad" />Derecho</label>
-      <label><input type="radio" value="FFYB" name="facultad" />Farmacia y Bioquímica</label>
-      <label><input type="radio" value="FFYL" name="facultad" />Filosofía y Letras</label>
-      <label><input type="radio" value="FMED" name="facultad" />Medicina</label>
-      <label><input type="radio" value="FIUBA" name="facultad" />Ingeniería</label>
-      <label><input type="radio" value="FPSI" name="facultad" />Psicología</label>
-      <label><input type="radio" value="FODON" name="facultad" />Odontología</label>
+      <label><input type="radio" value="FAUBA" name="Facultad" />Agronomía</label>
+      <label><input type="radio" value="FADU" name="Facultad" />Arquitectura</label>
+      <label><input type="radio" value="FCE" name="Facultad" />Ciencias Económicas</label>
+      <label><input type="radio" value="FCEN" name="Facultad" />Ciencias Exactas</label>
+      <label><input type="radio" value="FSOC" name="Facultad" />Ciencias Sociales</label>
+      <label><input type="radio" value="FVET" name="Facultad" />Ciencias Veterinarias</label>
+      <label><input type="radio" value="FDER" name="Facultad" />Derecho</label>
+      <label><input type="radio" value="FFYB" name="Facultad" />Farmacia y Bioquímica</label>
+      <label><input type="radio" value="FFYL" name="Facultad" />Filosofía y Letras</label>
+      <label><input type="radio" value="FMED" name="Facultad" />Medicina</label>
+      <label><input type="radio" value="FIUBA" name="Facultad" />Ingeniería</label>
+      <label><input type="radio" value="FPSI" name="Facultad" />Psicología</label>
+      <label><input type="radio" value="FODON" name="Facultad" />Odontología</label>
       
       
       <label id="label">Seleccione las instituciones de su interés</label>
-      <label><input type="checkbox" value="UCM" /> Universidad Complutense de Madrid</label>
-      <label><input type="checkbox" value="UBAR" /> Universidad de Barcelona</label>
-      <label><input type="checkbox" value="USID" /> Universidad de Sidney</label>
-      <label><input type="checkbox" value="UMOS" /> Universidad de Moscú</label>
-      <label><input type="checkbox" value="UPEK" /> Universidad de Pekín</label>
-      <label><input type="checkbox" value="USP" /> Universidad de Sao Paulo</label>
-      <label><input type="checkbox" value="UAM" /> Universidad Autónoma de Madrid</label>
-      <label><input type="checkbox" value="UBR" /> Universidad de Brasilia</label>
-      <label><input type="checkbox" value="UDELAR" /> Universidad de la República</label>
-      <label><input type="checkbox" value="UCHILE" /> Universidad de Chile</label>
-      <label><input type="checkbox" value="USACH" /> Universidad de Santiago de Chile</label>
+      <label><input type="checkbox" value="UCM" name="Universidad de Destino"/> Universidad Complutense de Madrid</label>
+      <label><input type="checkbox" value="UBAR" name="Universidad de Destino"/> Universidad de Barcelona</label>
+      <label><input type="checkbox" value="USID" name="Universidad de Destino"/> Universidad de Sidney</label>
+      <label><input type="checkbox" value="UMOS" name="Universidad de Destino"/> Universidad de Moscú</label>
+      <label><input type="checkbox" value="UPEK" name="Universidad de Destino"/> Universidad de Pekín</label>
+      <label><input type="checkbox" value="USP" name="Universidad de Destino"/> Universidad de Sao Paulo</label>
+      <label><input type="checkbox" value="UAM" name="Universidad de Destino"/> Universidad Autónoma de Madrid</label>
+      <label><input type="checkbox" value="UBR" name="Universidad de Destino"/> Universidad de Brasilia</label>
+      <label><input type="checkbox" value="UDELAR" name="Universidad de Destino"/> Universidad de la República</label>
+      <label><input type="checkbox" value="UCHILE" name="Universidad de Destino"/> Universidad de Chile</label>
+      <label><input type="checkbox" value="USACH" name="Universidad de Destino"/> Universidad de Santiago de Chile</label>
       <label>
       <label id="textarea">Algún comentario?
-        <textarea rows="3" cols="30" placeholder="Escriba su comentario..."></textarea>
+        <textarea rows="3" cols="30" placeholder="Escriba su comentario..." name="Comentario"></textarea>
       </label>
       <input type="submit" id="submit" />
       
